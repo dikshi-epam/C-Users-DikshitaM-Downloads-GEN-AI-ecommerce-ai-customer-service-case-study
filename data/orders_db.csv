@@ -1,0 +1,13 @@
+order_id,customer_name,status,expected_delivery,payment_status
+ORD1001,Rahul,Processing,2026-09-08,Paid
+ORD1002,Anjali,Shipped,2026-09-06,Paid
+ORD1003,Vikram,Delivered,2026-09-02,Paid
+ORD1004,Sneha,Cancelled,Refund Initiated,Refund Initiated
+ORD1005,Arjun,Out for Delivery,2026-09-04,Paid
+ORD1006,Meera,Delivered,2026-08-30,Paid
+ORD1007,Karan,Processing,2026-09-09,Paid
+ORD1008,Isha,Shipped,2026-09-07,Paid
+ORD1009,Dev,Delivered,2026-08-29,Paid
+ORD1010,Priya,Processing,2026-09-10,Payment Pending
+ORD1011,Nikhil,Delivered,2026-09-01,Paid
+ORD1012,Riya,Shipped,2026-09-05,Paid

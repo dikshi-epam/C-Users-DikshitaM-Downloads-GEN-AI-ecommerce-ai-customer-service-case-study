@@ -4,8 +4,8 @@
 
 - `agent/agent_spec.md`: prompt-engineered agent design, scope, guardrails, tools, and metrics.
 - `agent/customer_service_agent.py`: dependency-free reference implementation with retrieval, sentiment/context handling, escalation, and auto-documentation.
-- `data/knowledge_base.jsonl`: RAG source dataset representing an approved customer-service knowledge base.
-- `data/golden_dataset.jsonl`: golden evaluation dataset with expected intent, grounding, escalation, and tone.
+- `data/rag_knowledge_base.csv`: RAG source dataset representing an approved customer-service knowledge base.
+- `data/golden_dataset.csv`: golden evaluation dataset with expected intent, grounding, escalation, and tone.
 - `tests/test_agent.py`: executable regression and safety tests.
 - `case_study.md`: business problem, solution approach, operating model, and rollout plan.
 
@@ -21,7 +21,7 @@ The implementation uses a deterministic local adapter so the submission runs wit
 
 ## Share
 
-Submit the `ecommerce-ai-customer-service-case-study` folder or zip it. The RAG dataset and golden dataset are both included as JSON Lines files and can be imported into an agent platform or evaluation harness.
+Submit the `ecommerce-ai-customer-service-case-study` folder or zip it. The RAG dataset and golden dataset are included as CSV files and can be imported into an agent platform or evaluation harness.
 
 ## Live documentation integration
 

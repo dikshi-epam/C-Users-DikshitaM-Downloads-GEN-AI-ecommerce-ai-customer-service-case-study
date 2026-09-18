@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {"type":"command","command":"python scripts/start_customer_session.py"}
+    ],
+    "UserPromptSubmit": [
+      {"type":"command","command":"python scripts/audit_tool_call.py"}
+    ],
+    "PostToolUse": [
+      {"type":"command","command":"python scripts/audit_tool_call.py"}
+    ],
+    "Stop": [
+      {"type":"command","command":"python scripts/finalize_customer_session.py"}
+    ]
+  }
+}
